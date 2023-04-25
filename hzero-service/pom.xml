@@ -72,8 +72,8 @@
         <io.micrometer.version>1.0.6</io.micrometer.version>
         <elasticsearch.version>7.5.2</elasticsearch.version>
 
-        <oracle.version>12.1.0.1.0</oracle.version>
-        <sqlserver.version>4.2</sqlserver.version>
+        <oracle.version>12.1.0.2.0</oracle.version>
+        <sqlserver.version>4.0</sqlserver.version>
         <spring.session.data.redis.version>2.0.10.RELEASE</spring.session.data.redis.version>
     </properties>
 
@@ -660,7 +660,7 @@
                 <version>${mysql.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.oracle</groupId>
+                <groupId>cn.easyproject</groupId>
                 <artifactId>ojdbc7</artifactId>
                 <version>${oracle.version}</version>
             </dependency>

@@ -62,7 +62,7 @@
             <optional>true</optional>
         </dependency>
         <dependency>
-            <groupId>com.oracle</groupId>
+            <groupId>cn.easyproject</groupId>
             <artifactId>ojdbc7</artifactId>
             <optional>true</optional>
         </dependency>

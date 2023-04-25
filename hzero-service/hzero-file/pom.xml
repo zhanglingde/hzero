@@ -11,7 +11,7 @@
     <artifactId>hzero-file-saas</artifactId>
 
     <properties>
-        <aspose-words.version>1.4.0.RELEASE</aspose-words.version>
+        <aspose-words.version>23.1</aspose-words.version>
     </properties>
 
     <dependencies>
@@ -69,7 +69,7 @@
         </dependency>
         <!-- oracle -->
         <dependency>
-            <groupId>com.oracle</groupId>
+            <groupId>cn.easyproject</groupId>
             <artifactId>ojdbc7</artifactId>
             <optional>true</optional>
         </dependency>
@@ -127,7 +127,7 @@
         </dependency>
         <!-- Aspose Words -->
         <dependency>
-            <groupId>com.aspose</groupId>
+            <groupId>com.luhuiguo</groupId>
             <artifactId>aspose-words</artifactId>
             <version>${aspose-words.version}</version>
         </dependency>

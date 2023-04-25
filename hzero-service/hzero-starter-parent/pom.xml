@@ -27,8 +27,8 @@
         <squareup.retrofit2>2.3.0</squareup.retrofit2>
         <jackson-dataformat>2.9.0</jackson-dataformat>
         <cglib-nodep>3.1</cglib-nodep>
-        <oracle.version>12.1.0.1.0</oracle.version>
-        <sqlserver.version>4.2</sqlserver.version>
+        <oracle.version>12.1.0.2.0</oracle.version>
+        <sqlserver.version>4.0</sqlserver.version>
         <grpc.verson>1.17.0</grpc.verson>
         <redisson.version>3.10.0</redisson.version>
         <social.version>1.1.6.RELEASE</social.version>
@@ -116,7 +116,7 @@
             </dependency>
 
             <dependency>
-                <groupId>com.oracle</groupId>
+                <groupId>cn.easyproject</groupId>
                 <artifactId>ojdbc7</artifactId>
                 <version>${oracle.version}</version>
             </dependency>
